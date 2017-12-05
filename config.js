@@ -38,30 +38,24 @@ var config = {
     },
   },
   blockchainExplorerOpts: {
-    btc: {
+    hush: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.bitpay.com:443',
+        url: 'https://explorer.myhush.network:443',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://test-insight.bitpay.com:443',
+        url: 'https://testnet.explorer.myhush.network:443',
         // url: 'http://localhost:3001',
         // Multiple servers (in priority order)
         // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
-      },
-    },
-    bch: {
-      livenet: {
-        provider: 'insight',
-        url: 'https://cashexplorer.bitcoin.com',
       },
     },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
     defaultLanguage: 'en',
-    defaultUnit: 'btc',
+    defaultUnit: 'HUSH',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
     authorizationKey: '',
@@ -76,13 +70,13 @@ var config = {
   //  port: 25,
   //  ignoreTLS: true,
   //  subjectPrefix: '[Wallet Service]',
-  //  from: 'wallet-service@bitcore.io',
+  //  from: 'wallet-service@hushbitcore.io',
   //  templatePath: './lib/templates',
   //  defaultLanguage: 'en',
-  //  defaultUnit: 'btc',
+  //  defaultUnit: 'HUSH',
   //  publicTxUrlTemplate: {
-  //    livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-  //    testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
+  //    livenet: 'https://explorer.myhush.network/tx/{{txid}}',
+  //    testnet: 'https://testnet.explorer.myhush.network/tx/{{txid}}',
   //  },
   //},
   //
