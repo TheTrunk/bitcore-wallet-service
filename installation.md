@@ -4,16 +4,6 @@ The following document is a step-by-step guide to run BWS.
 Ensure MongoDB (2.6+) is installed and running. This document assumes that mongod is running at the default port 27017.
 See the configuration section to configure a different host/port.
 
-### Install BWS from NPM
-Use the following steps to Install BWS from the npmjs repository and run it with defaults. NOT WORKING FOR NOW
-```bash
-npm install bitcore-wallet-service-hush 
-cd bitcore-wallet-service-hush
-```
-To change configuration before running, see the Configuration section.
-```bash
-npm start
-```
 
 ### Install BWS from github source
 Use the following steps to Install BWS from github source and run it with defaults.
