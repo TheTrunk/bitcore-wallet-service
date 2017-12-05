@@ -5,10 +5,10 @@ Ensure MongoDB (2.6+) is installed and running. This document assumes that mongo
 See the configuration section to configure a different host/port.
 
 ### Install BWS from NPM
-Use the following steps to Install BWS from the npmjs repository and run it with defaults.
+Use the following steps to Install BWS from the npmjs repository and run it with defaults. NOT WORKING FOR NOW
 ```bash
-npm install bitcore-wallet-service
-cd bitcore-wallet-service
+npm install bitcore-wallet-service-hush 
+cd bitcore-wallet-service-hush
 ```
 To change configuration before running, see the Configuration section.
 ```bash
@@ -18,8 +18,8 @@ npm start
 ### Install BWS from github source
 Use the following steps to Install BWS from github source and run it with defaults.
 ```bash
-git clone https://github.com/bitpay/bitcore-wallet-service.git
-cd bitcore-wallet-service
+git clone https://github.com/TheTrunk/bitcore-wallet-service-hush.git
+cd bitcore-wallet-service-hush
 npm install
 ```
 To change configuration before running, see the Configuration section.
@@ -73,11 +73,11 @@ An example of this configuration is:
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      url: 'https://explorer.myhush.network:443',
     },
     testnet: {
       provider: 'insight',
-      url: 'https://test-insight.bitpay.com:443',
+      url: 'https://testnet.explorer.myhush.network:443',
     },
   }
 ```
@@ -90,7 +90,7 @@ Example configuration for connecting to email service (using postfix):
     port: 25,
     ignoreTLS: true,
     subjectPrefix: '[Wallet Service]',
-    from: 'wallet-service@bitcore.io',
+    from: 'wallet-service@hushbitcore.io',
   }
 ```
 
