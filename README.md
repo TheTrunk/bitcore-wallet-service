@@ -21,7 +21,7 @@ More about BWS at https://blog.bitpay.com/announcing-the-bitcore-wallet-suite/
 
 # Getting Started
 ```
- git clone https://github.com/bitpay/bitcore-wallet-service-hush.git
+ git clone https://github.com/TheTrunk/bitcore-wallet-service-hush.git
  cd bitcore-wallet-service-hush && npm start
 ```
 
