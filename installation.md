@@ -17,7 +17,7 @@ To change configuration before running, see the Configuration section.
 npm start
 ```
 ### Configuration
-Configuration for all required modules can be specified in https://github.com/bitpay/bitcore-wallet-service/blob/master/config.js
+Configuration for all required modules can be specified in https://github.com/TheTrunk/bitcore-wallet-service-hush/blob/master/config.js
 
 BWS is composed of 5 separate node services -
 Locker - locker/locker.js
