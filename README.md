@@ -34,7 +34,7 @@ BWS uses by default a Request Rate Limitation to CreateWallet endpoint. If you n
 BWS can be used with PM2 with the provided `app.js` script: 
  
 ```
-  pm2 start app.js --name "bitcoin-wallet-service-hush"
+  pm2 start app.js --name "bitcore-wallet-service-hush"
 ```
 
 # Security Considerations
